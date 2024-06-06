@@ -1,5 +1,5 @@
 # Cybersecurity-90days_notes
-This contains 100 days of the notes which i have learned  with the internship. 
+This contains 90 days of the notes which i have learned  with the internship. 
 # Cyber Security Internship Diary
 
 Welcome to my Cyber Security Internship Diary! This repository is a day-by-day account of what I learn during my internship in the field of Cyber Security. Here, I'll share insights, concepts, and practices that I encounter throughout this journey.
