@@ -6,8 +6,7 @@ Today, we delved into the Basic Pentesting room on TryHackMe. This room is ideal
 ### TryHackMe Platform
 We created a new profile on TryHackMe and started with the Basic Pentesting room, which involves a series of challenges designed to teach basic pentesting techniques.
 
-<!-- Add image of TryHackMe profile setup -->
-![TryHackMe Profile Setup]()
+<img src="https://tryhackme-badges.s3.amazonaws.com/Heartking.png" alt="TryHackMe">
 
 ### Activities and Learnings
 
@@ -56,3 +55,11 @@ In this we will the local user of the web server
 #### rockyou.txt: A widely-used password dictionary file containing millions of common passwords for use in brute-force attacks and password cracking.
 #### Hydra: Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add. 
 ![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-06/Screenshot%202024-06-13%20192239.png?raw=true)
+
+#### We got our first password of the user jan 
+![]()
+#### With the help of that we login in the system using the passwords with the command SSH jan@ip address
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-06/Screenshot%202024-06-13%20220030.png?raw=true)
+
+#### With moving in the home/kay where the pass.bak the passwords contained and the we don't have the access where we cannot get directly so we use a tool called as the peas for linux and then we get crack into the root user and get the password of the kay.
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-06/Screenshot%202024-06-13%20220937.png?raw=true)
