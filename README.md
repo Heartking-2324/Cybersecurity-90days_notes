@@ -10,4 +10,5 @@ Welcome to my Cyber Security Internship Diary! This repository is a day-by-day a
 ## [Day-4](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-04): Introduction to Networking-1
 ## [Day-5](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-05): Introduction to Networking-2
 ## [Day-6](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-06): Hands on lab on tryhackme 
+## [Day-7](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-07): Accessing tryhackme through kali
 Stay tuned for more updates as I continue to explore the fascinating world of Cyber Security. Your feedback and suggestions are welcome as I embark on this learning journey!
