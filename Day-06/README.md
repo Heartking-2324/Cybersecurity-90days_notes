@@ -57,9 +57,24 @@ In this we will the local user of the web server
 ![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-06/Screenshot%202024-06-13%20192239.png?raw=true)
 
 #### We got our first password of the user jan 
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-06/Screenshot%202024-06-13%20220001.png?raw=true)
+
 #### With the help of that we login in the system using the passwords with the command SSH jan@ip address
 ![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-06/Screenshot%202024-06-13%20220030.png?raw=true)
 
 #### With moving in the home/kay where the pass.bak the passwords contained and the we don't have the access where we cannot get directly so we use a tool called as the peas for linux and then we get crack into the root user and get the password of the kay.
 ![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-06/Screenshot%202024-06-13%20220937.png?raw=true)
+
+Answer to all the tasks given in the room
+1. What is the name of the hidden directory on the web server(enter name without /)?
+   -> development
+2. What is the username?
+   -> jan
+3. What is the password?
+   -> armando
+4. What service do you use to access the server(answer in abbreviation in all caps)?
+   -> SSH
+5. What is the name of the other user you found(all lower case)?
+   -> kay 
+7. What is the final password you obtain?
+   -> heresareallystrongpasswordthatfollowsthepasswordpolicy$$
