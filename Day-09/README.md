@@ -50,7 +50,7 @@ Now we have kept the ip in a very cool way lets nmap the site so we can get the 
  sudo nmap -Pn -p- -sV --script vuln -vv -oN noping-sv-sc-source.txt source.com
 
 ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/nmap%20scan.png?raw=true)
 
 When you try this you will know that it is taking a long time we can do a short alternative download rustscan. Download this only from this site their are malicous code on the internet [Rustscan](https://github.com/RustScan/RustScan/releases/download/2.2.3/rustscan_2.2.3_amd64.deb)
 after then we run the command 
@@ -58,7 +58,7 @@ after then we run the command
  sudo rustscan -a source.com -- --script vuln -oN rustscan-sv-sc-source.txt
 
 ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/rustscan-report.png?raw=true)
 
 But the problem with the rustscan is that it only gives us the port avaliable as fast as possible but it doesn not provide us the services running on that port. So we need the nmap for this 
 ```
@@ -72,12 +72,12 @@ We use Metasploit for the futher the nessary commands for the further excutions 
  msfconsole
 
 ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/msfconsole.png?raw=true)
 ```
 search Webmin
 
 ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/search%20webmin.png?raw=true)
 ```
 use 7
 show options
