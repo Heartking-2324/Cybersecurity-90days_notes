@@ -14,4 +14,5 @@ Welcome to my Cyber Security Internship Diary! This repository is a day-by-day a
 ## [Day-8](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-08): Learning to host a webiste 
 ## [Day-9](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-09): Solving tryhackme room (source)
 ## [Day-10](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-10): Solving TryHackMe room (rootme)
+## [Day-10](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-11): SQLMAP injection 
 Stay tuned for more updates as I continue to explore the fascinating world of Cyber Security. Your feedback and suggestions are welcome as I embark on this learning journey!
