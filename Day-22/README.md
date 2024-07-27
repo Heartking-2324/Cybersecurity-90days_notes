@@ -28,7 +28,9 @@ This project demonstrates a simple port scan detection script using Python. The 
 2. **Monitor Output**: The script will start capturing network traffic and print messages indicating any detected port scans.
 
 ## Python Script
- ``` git clone  ```
+ ```
+ wget https://raw.githubusercontent.com/Heartking-2324/Cybersecurity-90days_notes/main/Day-22/port_scan_detection.py
+ ```
 
 ## Explanation
 
