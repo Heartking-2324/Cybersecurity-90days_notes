@@ -24,4 +24,5 @@ Welcome to my Cyber Security Internship Diary! This repository is a day-by-day a
 ## [Day-18](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-18): Wireshark-2 tryhackme room (H4CKED)
 ## [Day-19](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-19): Escalating Privileges with Common Commands
 ## [Day-20](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-20): Wi-Fi Penetration Testing-1 
+## [Day-21](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-21): Wi-Fi Penetration Testing-2 
 Stay tuned for more updates as I continue to explore the fascinating world of Cyber Security. Your feedback and suggestions are welcome as I embark on this learning journey!
