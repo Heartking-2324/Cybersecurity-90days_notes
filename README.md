@@ -27,4 +27,5 @@ Welcome to my Cyber Security Internship Diary! This repository is a day-by-day a
 ## [Day-21](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-21): Wi-Fi Penetration Testing-2 
 ## [Day-22](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-22): Port Scan Detection using Python
 ## [Day-23](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-23): Network Security Monitoring with Snort
+## [Day-24](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-24): Intrusion Detection and Prevention with Snort and Suricata
 Stay tuned for more updates as I continue to explore the fascinating world of Cyber Security. Your feedback and suggestions are welcome as I embark on this learning journey!
