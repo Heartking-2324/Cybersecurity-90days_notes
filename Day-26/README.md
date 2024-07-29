@@ -119,6 +119,7 @@ if __name__ == '__main__':
     app.run_server(debug=True)
 ```
 To get data for the .csv then we should you could try the script in this day's file.
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-26/The_Dash_setup.png?raw=true)
 ## Deployment
 
 I will give the .csv file directly you can try it out by yourself!. I will also give the script to create a automated into the .csv file it is  DUMMY DATA. 
