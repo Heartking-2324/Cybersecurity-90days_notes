@@ -129,7 +129,8 @@ else:
     print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
 ```
 The report which will be generated will look like this
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-25/File_location.png?raw=true)
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-25/File_content.png?raw=true)
 ## Alternative Libraries
 
 There are several alternative libraries for web scraping in Python:
