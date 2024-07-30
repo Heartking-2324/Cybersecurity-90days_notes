@@ -32,5 +32,5 @@ Welcome to my Cyber Security Internship Diary! This repository is a day-by-day a
 ## [Day-26](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-26): Data Visualization Dashboard
 ## [Day-27](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-27): Password Manager
 ## [Day-28](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-28): MalwareDetector
-## [Day-28](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-28): OWASP TOP 10: PT.1 BROKEN ACCESS CONTROL
+## [Day-29](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-29): OWASP TOP 10: PT.1 BROKEN ACCESS CONTROL
 Stay tuned for more updates as I continue to explore the fascinating world of Cyber Security. Your feedback and suggestions are welcome as I embark on this learning journey!
