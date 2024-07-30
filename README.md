@@ -30,4 +30,5 @@ Welcome to my Cyber Security Internship Diary! This repository is a day-by-day a
 ## [Day-24](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-24): Intrusion Detection and Prevention with Snort and Suricata
 ## [Day-25](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-25): Building a Web Scraper
 ## [Day-26](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-26): Data Visualization Dashboard
+## [Day-27](https://github.com/Heartking-2324/Cybersecurity-90days_notes/tree/main/Day-27): Password Manager
 Stay tuned for more updates as I continue to explore the fascinating world of Cyber Security. Your feedback and suggestions are welcome as I embark on this learning journey!
