@@ -124,9 +124,11 @@ print(retrieved_password)
 
 ### `key.key`
 This file stores the encryption key used to encrypt and decrypt the passwords. It is crucial to keep this file secure and not share it with anyone. If this key is lost, you will not be able to decrypt your stored passwords.
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-27/key_key.png?raw=true)
 
 ### `passwords.txt`
 This file stores the encrypted passwords. Each line in this file represents a site and its corresponding encrypted password in the following format:
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-27/password_txt.png?raw=true)
 
 ```
 site:encrypted_password
