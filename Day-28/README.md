@@ -152,7 +152,7 @@ is_malware = detector.detect_malware(packet=malicious_packet)
 print("Is the packet malicious?", is_malware)'''
 ```
 After Running the code this is what output you should except 
-![]()
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-28/Output_txt.png?raw=true)
 ## Explanation of Files
 
 ### `malware_signatures.txt`
