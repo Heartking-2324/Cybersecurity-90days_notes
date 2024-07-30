@@ -153,21 +153,21 @@ Remove the hidden `username` field from the profile update form.
    ```bash
    python app.py
    ```
-
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-29/app_py.png?raw=true)
 2. **Access the Application:**
    Open a web browser and go to `http://127.0.0.1:5000/`.
 
 3. **Login:**
    - Username: `user1`
    - Password: `password1`
-
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-29/user1_show_change.jpg?raw=true)
 4. **Update Profile:**
    - Change `Name` to `John Smith`.
    - Change `Email` to `johnsmith@example.com`.
    - Click "Update".
    - User1's profile should now show `John Smith` and `johnsmith@example.com`.
-
+![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-29/user1_changed_made.png?raw=true)
 5. **Login as User2:**
    - Username: `user2`
    - Password: `password2`
-  
+  ![](https://github.com/Heartking-2324/Cybersecurity-90days_notes/blob/main/Day-29/user2_show.jpg?raw=true)
